@@ -16,4 +16,9 @@ TAREAS PROPUESTAS PARA DICIEMBRE
 - Organizar de manera adecuada lo que seria las carpetas para la pagina web, imagenes, fuente, demas.
 
                         TAREAS REALIZADAS
--
+
+- Simplemente se comenzo a crear lo que fue los archivos principales como lo fueroon el .html y el .css
+
+5/12/2022
+                TAREAS PARA REALIZAR EL DIA DE HOY
+- Hacer la pagina de inicio de Figma
