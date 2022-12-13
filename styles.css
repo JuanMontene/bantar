@@ -75,9 +75,22 @@ body {
 }
 
 /* Comienzo de creacion de estilos para el doby de la pagina web */
-.img_principal {
-  width: 100%;
+
+.body_1 {
+  background-image: url(img/pagina_inicio.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 150px;
 }
+
+.par-i {
+  margin: 10px 240px;
+  line-height: 19px;
+  color: white;
+}
+
 /* Comienzo de creacion de estilos para el doby de la pagina web */
 
 @media (max-width: 768px) {
