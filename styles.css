@@ -8,6 +8,8 @@ body {
   font-family: Raleway;
 }
 
+/* BARRA DE NAVEGACION */
+
 .header {
   /* Encabezado */
   background-color: rgba(1, 1, 1, 0.88);
@@ -74,21 +76,71 @@ body {
   color: white;
 }
 
-/* Comienzo de creacion de estilos para el doby de la pagina web */
-
-.body_1 {
-  background-image: url(img/pagina_inicio.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
+/* BANNER INICIAL CON IMAGEN Y TITULO*/
+.banner {
+  /* position: relative; se pone en comentario por error en la barra de navegacion arreglar 
+  barra de navegacion para que cuando se presione la barra de navegacion todo el body se corra para 
+  la izquierda */
+  width: 100%;
+  height: calc(100vh - 90px);
   background-size: cover;
-  text-align: center;
-  padding: 150px;
+  background-position: center;
+  transition: all 0.1s ease-in-out;
+  background-image: url(img/pagina_inicio.jpg);
 }
 
-.par-i {
-  margin: 10px 240px;
-  line-height: 19px;
-  color: white;
+.contenido-banner {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(32, 32, 32, 0.623);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.t1 {
+  margin-top: 35px;
+  color: #f57806;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 70px;
+}
+
+.t2 {
+  background: linear-gradient(
+    179.17deg,
+    #062cf5 0.71%,
+    rgba(255, 94, 0, 0.699) 93.4%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 65px;
+}
+
+.banner-para {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 140px;
+  margin-right: 140px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 280;
+  font-size: 25px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.logo-bantar-peque {
+  margin-top: 70px;
+  height: 110px;
 }
 
 /* Comienzo de creacion de estilos para el doby de la pagina web */
@@ -98,6 +150,7 @@ body {
     height: 80px;
   }
 
+  /* BARRA DE NAVEGACION RESPONSIVE */
   .enlace_logo {
     padding-top: 8px;
     padding-bottom: 3px;
@@ -144,15 +197,76 @@ body {
 
   .nav_menu_visible {
     /* clase para el menu cuando se despliega */
-    left: 300px;
+    left: 70%;
+    height: 100%;
   }
 
-  /* Clase para que el body se corra */
-  .body_move {
-    margin-right: 300px;
+  /* RESPONSIVE PARA LA PARTE DEL BODY 1 */
+
+  .banner {
+    margin: 0;
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-size: cover;
+    background-position: center;
+    transition: all 0.1s ease-in-out;
+    background-image: url(img/pagina_inicio.jpg);
   }
 
-  .menu_side_move {
-    width: 300px;
+  .contenido-banner {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(32, 32, 32, 0.623);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .t1 {
+    margin-top: 0px;
+    text-align: center;
+    color: #f57806;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+  }
+
+  .t2 {
+    background: linear-gradient(
+      179.17deg,
+      #062cf5 0.71%,
+      rgba(255, 94, 0, 0.5) 93.4%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: "Raleway";
+    font-style: normal;
+    text-align: center;
+    font-weight: 500;
+    font-size: 28px;
+    margin-top: 2px;
+  }
+
+  .banner-para {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 280;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .logo-bantar-peque {
+    margin-top: 40px;
+    height: 110px;
   }
 }
