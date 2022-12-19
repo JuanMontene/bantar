@@ -193,12 +193,13 @@ body {
 /* PIE DE PAGINA FOOTER */
 footer {
   width: 100%;
-  height: fit-content;
+  height: 240px;
   display: flex;
+  margin-top: 650px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #121212;
+  background-color: black;
   color: white;
 }
 
@@ -255,7 +256,8 @@ footer .website-logo {
   transition: 0.5;
 }
 
-.menu-item-footer:hover {
+.menu-item-footer:hover,
+.footer-info:hover {
   opacity: 1;
 }
 
