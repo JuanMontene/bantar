@@ -147,6 +147,7 @@ body {
 .columns {
   width: 100%;
   margin-top: 30px;
+  text-align: center;
 }
 
 .titulo2 {
@@ -161,12 +162,19 @@ body {
   box-sizing: border-box;
 }
 
+.columns--img--tittle {
+  text-align: left;
+}
+
+.columns--img--text {
+  text-align: justify;
+}
 .banda {
-  width: 100%;
+  width: 80%;
 }
 
 .proximidad {
-  width: 100%;
+  width: 80%;
 }
 
 .container h4 {
@@ -180,7 +188,7 @@ body {
 }
 
 .btn1 {
-  margin-left: 200px;
+  /* margin-left: 200px; */
   padding: 0.7em 1em;
   background: #4a4a4a;
   border: 1px solid #000000;
@@ -276,10 +284,16 @@ footer .website-logo {
   width: 100%;
 }
 
+.footer--desing--img {
+  width: 50%;
+}
+
 .social-link {
   height: 100%;
   width: 30px;
-  background-image: url();
+}
+
+.menu--title--img {
 }
 
 @media (max-width: 768px) {
