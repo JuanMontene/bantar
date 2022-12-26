@@ -86,7 +86,7 @@ body {
   background-size: cover;
   background-position: center;
   transition: all 0.1s ease-in-out;
-  background-image: url(/img/inicio/pagina_inicio.jpg);
+  background-image: url(/img/pagina_inicio.jpg);
 }
 
 .contenido-banner {
@@ -147,6 +147,7 @@ body {
 .columns {
   width: 100%;
   margin-top: 30px;
+  margin-bottom: 850px;
   text-align: center;
 }
 
@@ -260,7 +261,7 @@ footer .wave {
   left: 0;
   width: 100%;
   height: 100px;
-  background: url(/img/inicio/wave.png);
+  background: url(/img/wave.png);
   background-size: 1000px 100px;
 }
 
