@@ -5,7 +5,11 @@
 }
 
 body {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
+}
+
+:root {
+  --background-color-gray: #1d1d1c;
 }
 
 /* BARRA DE NAVEGACION */
@@ -76,9 +80,90 @@ body {
   color: white;
 }
 
+/* COMIENZO EDITOR DE ESTILOS BANNER E INFORMACION */
+
 .banner {
   width: 100%;
-  /* height: 319.5px; */
+}
+
+/* EDITOR DE ESTILOS INFORMACION DE LA PAGINA */
+
+.information {
+  width: 100%;
+  padding-top: 40px;
+}
+
+.information-1 {
+  padding-top: 70px;
+  padding-left: 100px;
+}
+
+.information-2 {
+  text-align: center;
+}
+
+.information-1,
+.information-2 {
+  padding-bottom: 50px;
+  width: 50%;
+  height: 450px;
+  background-color: white;
+  float: left;
+}
+
+.tittle-information {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.information-list {
+  margin-left: 20px;
+  line-height: 22px;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.information-text {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.information-text1 {
+  /* margin-right: 30px; */
+  text-align: left;
+}
+
+.img--information-2 {
+  width: 60%;
+}
+
+/* ESTILOS PARA LA SECCION DE RECICLAJE */
+.container__card {
+  max-width: 100%;
+  padding: 20px 125px;
+  padding-bottom: 40px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 50%;
+  position: relative;
+  /* margin: 20px; */
+  font-family: "Raleway";
+}
+
+.icon {
+  width: auto;
+  height: 220px;
+  background-color: #eff3f5;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 768px) {
@@ -143,5 +228,67 @@ body {
 
   .menu__side_move {
     width: 250px;
+  }
+
+  /* COMIENZO EDITOR DE ESTILOS BANNER E INFORMACION */
+
+  .banner {
+    width: 100%;
+  }
+
+  /* EDITOR DE ESTILOS INFORMACION DE LA PAGINA RESPONSIVE */
+
+  .information {
+    width: 100%;
+    padding-top: 35px;
+    /* display: flex; */
+  }
+
+  .information-1 {
+    padding-top: 2px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+  }
+
+  .information-2 {
+    text-align: center;
+  }
+
+  .information-1,
+  .information-2 {
+    width: 100%;
+    float: left;
+  }
+
+  .tittle-information {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .information-list {
+    margin-left: 20px;
+    line-height: 22px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .information-list-item {
+  }
+
+  .information-text {
+    margin-bottom: 30px;
+    text-align: left;
+  }
+
+  .information-text1 {
+    /* margin-right: 30px; */
+    text-align: left;
+  }
+
+  .img--information-2 {
+    width: 60%;
   }
 }
