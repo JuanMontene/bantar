@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 :root {
@@ -91,11 +91,13 @@ body {
 .information {
   width: 100%;
   padding-top: 40px;
+  padding-bottom: 600px;
 }
 
 .information-1 {
-  padding-top: 70px;
-  padding-left: 100px;
+  padding-top: 150px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 .information-2 {
@@ -104,7 +106,6 @@ body {
 
 .information-1,
 .information-2 {
-  padding-bottom: 50px;
   width: 50%;
   height: 450px;
   background-color: white;
@@ -139,11 +140,13 @@ body {
 }
 
 /* ESTILOS PARA LA SECCION DE RECICLAJE */
+
 .container__card {
-  max-width: 100%;
-  padding: 150px 125px;
+  max-width: 992px;
+  padding: 20px;
   padding-bottom: 40px;
   margin: auto;
+  margin-top: 60px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -153,17 +156,41 @@ body {
   width: 50%;
   position: relative;
   /* margin: 20px; */
-  font-family: "Raleway";
 }
 
 .icon {
-  width: auto;
-  height: 220px;
+  width: 90%;
   background-color: #eff3f5;
   padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.icon-img {
+  width: 50%;
+}
+
+.info__description {
+  width: 90%;
+  text-align: justify;
+  background: #629ab6;
+  padding: 20px;
+  *margin-top: -200px;
+}
+
+.info__description p {
+  font-size: 14px;
+  margin-top: 10px;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  box-orient: vertical;
+}
+
+.info__description input {
+  margin-top: 20px;
+  padding: 10px 40px;
+  background: ;
 }
 
 @media (max-width: 768px) {
@@ -273,9 +300,6 @@ body {
     line-height: 22px;
     font-size: 16px;
     margin-bottom: 20px;
-  }
-
-  .information-list-item {
   }
 
   .information-text {
