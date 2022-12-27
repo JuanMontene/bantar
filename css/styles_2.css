@@ -141,7 +141,7 @@ body {
 /* ESTILOS PARA LA SECCION DE RECICLAJE */
 .container__card {
   max-width: 100%;
-  padding: 20px 125px;
+  padding: 150px 125px;
   padding-bottom: 40px;
   margin: auto;
   display: flex;
