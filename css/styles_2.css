@@ -248,7 +248,16 @@ body {
 .contenedor-columnas {
   width: 100%;
   margin: auto;
+  margin-bottom: 50px;
   padding: 10px 40px;
+}
+
+.contenedor-columnas h3 {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 30px;
 }
 
 .columnas {
@@ -256,6 +265,13 @@ body {
   float: left;
   padding: 20px 20px;
   box-sizing: border-box;
+  margin: auto;
+}
+
+.columnas h4 {
+  margin-top: 15px;
+  font-size: 18px;
+  padding: 10px 0;
 }
 
 .columnas img {
