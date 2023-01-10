@@ -10,6 +10,7 @@ body {
 
 :root {
   --background-color-gray: #1d1d1c;
+  --background-color-black: black;
 }
 
 /* BARRA DE NAVEGACION */
@@ -248,7 +249,7 @@ body {
 .contenedor-columnas {
   width: 100%;
   margin: auto;
-  margin-bottom: 50px;
+  margin-bottom: 550px;
   padding: 10px 40px;
 }
 
@@ -279,6 +280,20 @@ body {
 }
 .columnas p {
   text-align: left;
+}
+
+/* ESTILOS PARA SLIDER DE INFORMACION TARJETAS A FONDO */
+.slider {
+  text-align: center;
+  font-weight: 800;
+  font-size: x-large;
+  background-color: var(--background-color-black);
+  color: white;
+}
+
+.slider h1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 @media (max-width: 768px) {
