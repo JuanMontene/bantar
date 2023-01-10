@@ -11,6 +11,7 @@ body {
 :root {
   --background-color-gray: #1d1d1c;
   --background-color-black: black;
+  --color-white: white;
 }
 
 /* BARRA DE NAVEGACION */
@@ -284,7 +285,6 @@ body {
 
 /* ESTILOS PARA SLIDER DE INFORMACION TARJETAS A FONDO */
 .slider {
-  text-align: center;
   font-weight: 800;
   font-size: x-large;
   background-color: var(--background-color-black);
@@ -292,8 +292,69 @@ body {
 }
 
 .slider h1 {
+  text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.slide-contenedor {
+  max-width: 100%;
+  max-height: 100vh;
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  margin: auto; 
+}
+
+/* .mi-slider{
+  display: none;
+  transition: 2s;
+  max-height: 100vh;
+} */
+
+.mi-slider img {
+  width: 90%;
+  max-height: 100vh;
+  height: 100%;
+  object-fit: cover;
+  vertical-align: top;
+  transition: 2s;
+}
+
+.direcciones{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+}
+
+.direcciones a{
+  color: var(--color-white);
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.direcciones a:hover{
+  background: rgba(255, 255, 255, .5);
+  transition: .5s;
+}
+
+.barras{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.barra{
+  cursor:all-scroll
 }
 
 @media (max-width: 768px) {
