@@ -12,6 +12,7 @@ body {
   --background-color-gray: #1d1d1c;
   --background-color-black: black;
   --color-white: white;
+  --color--orange: #f57806;
 }
 
 /* BARRA DE NAVEGACION */
@@ -285,14 +286,15 @@ body {
 
 /* ESTILOS PARA SLIDER DE INFORMACION TARJETAS A FONDO */
 .slider {
-  font-weight: 800;
-  font-size: x-large;
-  background-color: var(--background-color-black);
   color: white;
+  font-size: x-large;
+  font-weight: 800;
+  text-align: center;
+  width: 100%;
+  background-color: var(--background-color-black);
 }
 
 .slider h1 {
-  text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -304,25 +306,28 @@ body {
   height: auto;
   position: relative;
   overflow: hidden;
-  margin: auto; 
+  margin: auto;
 }
 
-/* .mi-slider{
+.mi-slider {
   display: none;
   transition: 2s;
   max-height: 100vh;
-} */
+}
 
 .mi-slider img {
-  width: 90%;
+  width: 70%;
   max-height: 100vh;
   height: 100%;
+  display: flex;
+  align-items: center;
+  margin: auto;
   object-fit: cover;
   vertical-align: top;
   transition: 2s;
 }
 
-.direcciones{
+.direcciones {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -333,28 +338,53 @@ body {
   font-size: 30px;
 }
 
-.direcciones a{
+.direcciones a {
   color: var(--color-white);
   display: inline-block;
   padding: 20px;
   text-decoration: none;
 }
 
-.direcciones a:hover{
-  background: rgba(255, 255, 255, .5);
-  transition: .5s;
+.direcciones a:hover {
+  background: rgba(255, 255, 255, 0.5);
+  transition: 0.5s;
 }
 
-.barras{
+.barras {
   position: absolute;
   bottom: 0;
   width: 100%;
-  justify-content: space-between;
+  display: flex;
+  justify-content: center;
   margin-bottom: 15px;
 }
 
-.barra{
-  cursor:all-scroll
+.barra {
+  cursor: pointer;
+  height: 2px;
+  width: 25px;
+  margin: 0 2px;
+  background: #dcdde1;
+  display: inline-block;
+  margin-left: 3px;
+}
+
+.active {
+  background-color: var(--color--orange);
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @media (max-width: 768px) {
@@ -562,5 +592,69 @@ body {
     border: none;
     border-radius: 5px;
     box-shadow: 2px 2px 30px -5px #20202049;
+  }
+
+  /* ESTILOS INFORMACIÓN DE TARJETAS RESPONSIVE */
+  .contenedor-columnas {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 550px;
+    padding: 10px 40px;
+  }
+
+  .contenedor-columnas h3 {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+  }
+
+  .columnas {
+    width: 100%;
+    float: left;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    margin: auto;
+  }
+
+  .columnas h4 {
+    margin-top: 15px;
+    font-size: 18px;
+    padding: 10px 0;
+  }
+
+  .columnas img {
+    height: 300px;
+  }
+  .columnas p {
+    text-align: left;
+  }
+
+  /* ESTILOS PARA SLIDER DE INFORMACION TARJETAS A FONDO */
+  .slider {
+    margin-top: 250%;
+    color: white;
+    font-size: x-large;
+    font-weight: 800;
+    text-align: center;
+    width: 100%;
+    height: 50%;
+    background-color: var(--background-color-black);
+  }
+
+  .slider h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .slide-contenedor {
+    max-width: 100%;
+    max-height: 100vh;
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
   }
 }
