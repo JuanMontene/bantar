@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 /* BARRA DE NAVEGACION */
@@ -94,7 +94,6 @@ body {
   padding: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(32, 32, 32, 0.623);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -104,7 +103,7 @@ body {
 .t1 {
   margin-top: 35px;
   color: #f57806;
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 500;
   font-size: 70px;
@@ -119,7 +118,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 500;
   font-size: 65px;
@@ -130,7 +129,7 @@ body {
   margin-bottom: 20px;
   margin-left: 140px;
   margin-right: 140px;
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 280;
   font-size: 25px;
@@ -395,7 +394,7 @@ footer .wave#wave4 {
     margin-top: 0px;
     text-align: center;
     color: #f57806;
-    font-family: "Raleway";
+    font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
     font-size: 35px;
@@ -410,7 +409,7 @@ footer .wave#wave4 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    font-family: "Raleway";
+    font-family: 'Raleway';
     font-style: normal;
     text-align: center;
     font-weight: 500;
@@ -423,7 +422,7 @@ footer .wave#wave4 {
     margin-bottom: 0px;
     margin-left: 20px;
     margin-right: 20px;
-    font-family: "Raleway";
+    font-family: 'Raleway';
     font-style: normal;
     font-weight: 280;
     font-size: 18px;
