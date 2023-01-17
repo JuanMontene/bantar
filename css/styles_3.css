@@ -93,7 +93,9 @@ body {
 .quienes-somos {
   display: inline-block;
   text-align: center;
+  justify-content: center;
   margin-top: 50px;
+  margin-bottom: 100px;
   font-size: x-large;
 }
 
@@ -106,6 +108,8 @@ body {
 }
 
 .quienes-somos p {
+  margin-left: 25%;
+  width: 50%;
 }
 
 /* DISEÑO FOOTER NOSTROS */
@@ -288,6 +292,30 @@ footer .wave#wave4 {
 
   .banner {
     width: 100%;
+  }
+
+  /* INFORMACION SOBRE NOSOTROS */
+
+  .quienes-somos {
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: large;
+  }
+
+  .quienes-somos h1 {
+    font-weight: bolder;
+  }
+
+  .quienes-somos-img {
+    height: 100px;
+  }
+
+  .quienes-somos p {
+    margin-left: 10%;
+    width: 80%;
   }
 
   /* ESTILOS FOOTER RESPONSIVE */
