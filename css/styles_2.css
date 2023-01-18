@@ -50,6 +50,11 @@ body {
   text-decoration: none;
 }
 
+.nav-link:hover {
+  color: #f57806;
+  transition: 0.3s;
+}
+
 .nav_menu {
   /* Toda la lista ul*/
   display: flex;
@@ -64,10 +69,10 @@ body {
   width: max-content;
 }
 
-.nav_menu_link:hover {
+/* .nav_menu_link:hover {
   color: #f57806;
   transition: 0.3s;
-}
+} */
 
 .nav-toggle {
   color: white;
@@ -81,6 +86,10 @@ body {
   height: 22px;
   padding-right: 20px;
   color: white;
+}
+
+.color-mantenido {
+  color: #f57806;
 }
 
 /* COMIENZO EDITOR DE ESTILOS BANNER E INFORMACION */
