@@ -8,10 +8,6 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-.color-mantenido {
-  color: #f57806;
-}
-
 :root {
   --background-color-gray: #1d1d1c;
   --background-color-black: black;
@@ -85,6 +81,10 @@ body {
   height: 22px;
   padding-right: 20px;
   color: white;
+}
+
+.color-mantenido {
+  color: #f57806;
 }
 
 /* BANNER IMAGEN PRINCIPAL */

@@ -10,10 +10,6 @@ body {
 
 /* BARRA DE NAVEGACION */
 
-.color-mantenido {
-  color: #f57806;
-}
-
 .header {
   /* Encabezado */
   background-color: rgba(1, 1, 1, 0.88);
@@ -78,6 +74,10 @@ body {
   height: 22px;
   padding-right: 20px;
   color: white;
+}
+
+.color-mantenido {
+  color: #f57806;
 }
 
 /* BANNER INICIAL CON IMAGEN Y TITULO*/
