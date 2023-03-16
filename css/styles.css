@@ -99,6 +99,7 @@ body {
   width: 100%;
   height: 100%;
   display: flex;
+  background-color: rgba(32, 32, 32, 0.623);
   flex-direction: column;
   justify-content: center;
   align-items: center;
