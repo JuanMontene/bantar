@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 66.54 66.54">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Degradado_sin_nombre_2);
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre_2" data-name="Degradado sin nombre 2" x1="56.8" y1="56.8" x2="9.74" y2="9.74" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1677f1"/>
+      <stop offset="0.18" stop-color="#186ee9"/>
+      <stop offset="0.46" stop-color="#1d56d3"/>
+      <stop offset="0.82" stop-color="#262fb0"/>
+      <stop offset="1" stop-color="#2b189c"/>
+    </linearGradient>
+  </defs>
+  <g id="Capa_2" data-name="Capa 2">
+    <g id="elements">
+      <path class="cls-1" d="M33.27,0A33.27,33.27,0,1,0,66.54,33.27,33.28,33.28,0,0,0,33.27,0ZM45.05,18.32h-3.9c-3.84,0-5,2.39-5,4.83V29h8.58l-1.37,8.93H36.11v21.6H26.46V37.88H18.61V29h7.85V22.14c0-7.75,4.61-12,11.67-12a47.11,47.11,0,0,1,6.92.61Z"/>
+    </g>
+  </g>
+</svg>

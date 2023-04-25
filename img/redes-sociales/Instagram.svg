@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 66.54 66.54">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Degradado_sin_nombre_6);
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre_6" data-name="Degradado sin nombre 6" x1="9.74" y1="9.74" x2="56.8" y2="56.8" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffe185"/>
+      <stop offset="0.21" stop-color="#ffbb36"/>
+      <stop offset="0.38" stop-color="#ff5176"/>
+      <stop offset="0.52" stop-color="#f63395"/>
+      <stop offset="0.74" stop-color="#a436d2"/>
+      <stop offset="1" stop-color="#5f4eed"/>
+    </linearGradient>
+  </defs>
+  <g id="Capa_2" data-name="Capa 2">
+    <g id="elements">
+      <path class="cls-1" d="M33.27,0A33.27,33.27,0,1,0,66.54,33.27,33.28,33.28,0,0,0,33.27,0ZM53.44,41.32A12.14,12.14,0,0,1,41.32,53.44H25.22A12.14,12.14,0,0,1,13.1,41.32V25.22A12.14,12.14,0,0,1,25.22,13.1h16.1A12.14,12.14,0,0,1,53.44,25.22Zm-13.64-8a6.37,6.37,0,1,1-6.36-6.36A6.36,6.36,0,0,1,39.8,33.27ZM41.32,16.9H25.22a8.33,8.33,0,0,0-8.32,8.32v16.1a8.33,8.33,0,0,0,8.32,8.32h16.1a8.33,8.33,0,0,0,8.32-8.32V25.22A8.33,8.33,0,0,0,41.32,16.9ZM33.44,43.2a9.93,9.93,0,1,1,9.93-9.93A9.94,9.94,0,0,1,33.44,43.2ZM44,25a2.36,2.36,0,1,1,2.36-2.36A2.36,2.36,0,0,1,44,25Z"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* COMUNES */
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+/* HEADER */
+
+.header {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.container-header {
+  display: flex;
+}
+
+.logo_bantar {
+  padding-top: 19px;
+  padding-left: 66px;
+  padding-bottom: 15px;
+  margin-right: 415px;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.main-nav_link {
+  text-decoration: none;
+  color: black;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 59px 0;
+  position: relative;
+}
+
+.main-nav_list {
+  display: flex;
+  align-items: center;
+}
+
+.main-nav_item {
+  margin-right: 43px;
+}
+
+.main-nav_item:last-child {
+  margin-right: 0;
+}
+
+.selected {
+  color: #ea899a;
+}
+
+.selected::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #ea899a;
+  border-radius: 2px;
+}
+
+/* BANNER */
+
+.banner {
+  height: 410px;
+  background: linear-gradient(
+    269.84deg,
+    #f0a7ab -13.67%,
+    rgba(221, 167, 240, 0) 119.18%
+  );
+  text-align: left;
+}
+
+.banner-container {
+  position: relative;
+}
+
+.primera-linea {
+  padding-left: 149px;
+  padding-top: 123px;
+}
+
+.segunda-linea {
+  padding-left: 149px;
+}
+
+.img-primera-linea {
+  height: 1px;
+  width: 432px;
+}
+
+.titulo-banner {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #ff003d;
+  padding-top: 10px;
+  padding-right: 466px;
+}
+
+.parrafo-banner {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #ff82a0;
+  padding-top: 28px;
+  padding-right: 453px;
+}
+
+.imagen-banner {
+  display: block;
+  position: absolute;
+  width: 525px;
+  height: 410px;
+  right: 26px;
+}
+
+.imagen-chica {
+  width: 525px;
+  height: 410px;
+}
+
+/* INTRODUCTION BANTAR */
+.introduction {
+  height: 1773px;
+  background: linear-gradient(
+    270.58deg,
+    rgba(0, 160, 250, 0.24) -23.33%,
+    rgba(253, 146, 255, 0.11125) 85.16%,
+    rgba(255, 71, 104, 0) 193.65%
+  );
+}
