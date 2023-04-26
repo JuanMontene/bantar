@@ -10,6 +10,14 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style: none;
+}
+
+ul {
+  list-style: none;
+}
+
 body {
   font-family: 'Lato';
   font-style: normal;
@@ -60,6 +68,10 @@ body {
   line-height: 19px;
   padding: 59px 0;
   position: relative;
+}
+
+.main-nav_link:hover {
+  color: #ea899a;
 }
 
 .main-nav_list {
@@ -162,4 +174,256 @@ body {
     rgba(253, 146, 255, 0.11125) 85.16%,
     rgba(255, 71, 104, 0) 193.65%
   );
+}
+
+.line-introduction {
+  width: 1010px;
+  padding-top: 38px;
+  padding-bottom: 5px;
+  margin: auto;
+}
+
+.line2-introduction {
+  width: 1010px;
+  margin: auto;
+}
+
+.tittle-introduction {
+  font-style: ExtraBold;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #ff003d;
+  margin: auto;
+}
+
+.introduction-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: justify;
+  width: 902px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: auto;
+}
+
+/* CARDS WITH INFORMATION */
+
+.cards-information {
+  width: 825px;
+  height: 346px;
+  background-color: white;
+  box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  position: relative;
+  margin-left: 73px;
+}
+
+.img-tratamientos_faciales {
+  position: absolute;
+  top: 14px;
+  left: 11px;
+  width: 474px;
+  height: 318px;
+  border-radius: 12px;
+}
+
+.tratamientos-faciales {
+  text-align: center;
+  padding-left: 487px;
+  padding-top: 86px;
+}
+
+.card-tittle {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: black;
+}
+
+.card-tittle3 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+  color: black;
+}
+
+.card-description {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 38px;
+  color: black;
+  padding-bottom: 60px;
+}
+
+.card-description3 {
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 38px;
+  color: black;
+  padding-bottom: 60px;
+}
+
+.btn-saber_mas {
+  position: relative;
+  font-size: 12px;
+  line-height: 14px;
+  height: 3em;
+  padding: 0 3em;
+  border: none;
+  background-color: #ff82a0;
+  color: #fff;
+  overflow: hidden;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.btn-saber_mas::before {
+  content: '';
+  display: block;
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+  left: 0;
+  height: 0px;
+  width: 100%;
+  background: rgb(196, 27, 84);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 130, 160, 1) 20%,
+    rgb(204, 51, 102) 100%
+  );
+  transition: 0.2s;
+}
+
+.label {
+  position: relative;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3em;
+  width: 3em;
+  position: absolute;
+  top: 3em;
+  right: 0;
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.btn-saber_mas:hover::before {
+  height: 100%;
+}
+
+.btn-saber_mas:hover .icon {
+  top: 0;
+  opacity: 1;
+}
+
+.cards-information2 {
+  width: 825px;
+  height: 346px;
+  background-color: white;
+  box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  position: relative;
+  margin-left: 302px;
+  margin-top: 25px;
+}
+
+.cards-information3 {
+  width: 825px;
+  height: 346px;
+  background-color: white;
+  box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  position: relative;
+  margin-left: 187px;
+  margin-top: 25px;
+}
+
+/* FOOTER */
+.container-footer {
+  display: flex;
+}
+
+.logo-bantar_footer {
+  padding-top: 64px;
+  padding-left: 60px;
+  padding-bottom: 64px;
+  margin-right: 120px;
+}
+
+.redes-sociales {
+  padding-top: 82px;
+  margin-right: 120px;
+}
+
+.redes-sociales_tittle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  padding-bottom: 25px;
+}
+
+.list-social_media {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-left: 76px;
+}
+
+.socialmedia:hover {
+  fill: #ff82a0;
+  transition: 0.3s;
+}
+
+.pages {
+  padding-top: 80px;
+  margin-right: 120px;
+}
+
+.pages-footer {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.pages-footer:hover {
+  color: #ea899a;
+  font-weight: 400;
+  transition: 0.2s;
+}
+
+.selected-footer {
+  color: #ea899a;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.ubication {
+  padding-top: 78px;
+}
+
+.ubication-list_item:not(:last-child) {
+  padding-bottom: 15px;
+}
+
+.ubication-link {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #5f5f5f;
+}
+
+.ubication-link:hover,
+.ubication-link:focus {
+  color: #ea899a;
 }
