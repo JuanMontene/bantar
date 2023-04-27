@@ -46,15 +46,12 @@ function muestraSlides(n) {
   slides[indice - 1].style.display = 'block';
   barras[indice - 1].className += ' active';
 }
-// document.getElementById("btn_open").addEventListener("click", open_close_menu);
 
-// // poder que el body se mueva hacia la derecha
-// var side_menu = document.getElementById("nav_side");
-// var btn_open = documento.getElementById("btn_open");
-// var body = document.getElementById("body");
+const cuadrado = document.querySelector('.cuadrado');
+const icono = document.querySelector('.icono');
+const informacion = document.querySelector('.informacion');
 
-// // Evento para mostrar y ocultar menu
-// function open_close_menu() {
-//   body.classList.toggle("body_move");
-//   side_menu.classList.toggle("menu_side_move");
-// }
+cuadrado.addEventListener('click', () => {
+  informacion.style.display = 'block';
+  icono.classList.toggle('girado');
+});

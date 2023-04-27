@@ -427,3 +427,69 @@ body {
 .ubication-link:focus {
   color: #ea899a;
 }
+
+/* STYLES - WEB SERVICES PAGE */
+
+.introduction-tittle_services {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #000000;
+  padding-top: 73px;
+}
+
+.introduction-text_services {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  padding-top: 42px;
+  padding-left: 219px;
+  padding-right: 220px;
+}
+
+.line-services_1 {
+  width: 1056px;
+  padding-top: 48px;
+  padding-bottom: 5px;
+  margin: auto;
+}
+
+/* LIMPIEZA PROFUNDA */
+
+.limpieza-profunda {
+  display: flex;
+}
+
+.tittle-limpieza {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  color: #000000;
+  padding-left: 80px;
+}
+
+.tittle-profunda {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 43px;
+  color: #000000;
+}
+
+.limpieza-profunda_img {
+  width: 552px;
+  height: 368px;
+  padding-left: 80px;
+  padding-top: 10px;
+}
+
+.text-limpieza_profunda {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  color: #000000;
+  padding: 28px 101px 25px 45px;
+}
