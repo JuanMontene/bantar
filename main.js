@@ -55,3 +55,5 @@ cuadrado.addEventListener('click', () => {
   informacion.style.display = 'block';
   icono.classList.toggle('girado');
 });
+
+/* DESCRIPTION BUTTONS SERVICES */
