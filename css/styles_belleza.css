@@ -70,6 +70,36 @@ body {
   position: relative;
 }
 
+.item-vertical:first-child {
+  padding-bottom: 5px;
+}
+
+.menu-vertical {
+  position: absolute;
+  font-size: 12px;
+  padding-left: 1px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+  padding-top: 10px;
+  display: none;
+  /* background: rgba(248, 230, 233, 0.51); */
+  border-radius: 0px 0px 4px 4px;
+}
+
+.menu-vertical_item {
+  color: #000000;
+}
+
+.menu-vertical_item:hover {
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.main-nav_list li:hover .menu-vertical {
+  display: block;
+}
+
 .main-nav_link:hover {
   color: #ea899a;
 }
@@ -637,4 +667,126 @@ body {
 
 .hidden {
   display: none;
+}
+
+/* CUIDADO DE TUS PIERNAS */
+
+.tittle-text {
+  display: flex;
+  align-items: center;
+  width: 1004px;
+  margin: auto;
+  padding-top: 60px;
+}
+
+.presoterapia-tittle {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 43px;
+  padding-top: 20px;
+  padding-bottom: 23px;
+}
+
+.negrita {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+}
+
+.parrafo {
+  padding-right: 63px;
+}
+
+.tittle-text p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  width: 467px;
+}
+
+.img-presoterapia {
+  width: 474px;
+  height: 319px;
+  border-radius: 11px;
+}
+
+.piernas-info {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  color: #000000;
+  padding-bottom: 23px;
+}
+
+.question {
+  font-size: 17px;
+  line-height: 22px;
+  color: #000000;
+  padding-left: 5px;
+}
+
+.answer {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: justify;
+  color: #000000;
+}
+
+.informacion-presoterapia {
+  display: flex;
+  /* align-items: center; */
+  width: 1027px;
+  margin: auto;
+  padding-top: 5px;
+}
+
+.piernas-cansadas {
+  padding-right: 157px;
+}
+
+.beneficios-box {
+  padding-top: 38px;
+}
+
+.beneficios {
+  width: 1048px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding-bottom: 82px;
+}
+
+.center {
+  padding-left: 142px;
+  /*  text-align: center; */
+}
+
+.center1 {
+  text-align: center;
+  padding-left: 85px;
+}
+
+.list-beneficios {
+  padding-top: 20px;
+  padding-right: 120px;
+  padding-left: 25px;
+}
+
+.list-contraindicaciones {
+  padding-top: 20px;
+  padding-left: 90px;
+}
+
+.list-beneficios_item {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.img-beneficios {
+  width: 477px;
+  border-radius: 13px;
 }
