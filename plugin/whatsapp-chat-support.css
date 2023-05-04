@@ -98,13 +98,6 @@
   right: 20px;
 }
 
-/* @media (max-width: 768px) {
-  .wcs_fixed_right {
-    bottom: 228px;
-    right: 225px;
-  }
-} */
-
 .wcs_fixed_left {
   z-index: 999;
   position: fixed;
