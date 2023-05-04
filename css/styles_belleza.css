@@ -853,6 +853,15 @@ body {
   text-align: center;
 }
 
+.extra {
+  padding-bottom: 22px;
+}
+
+.tittle-more {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .tittle-productos_2 {
   font-weight: 300;
   font-size: 13px;
@@ -887,13 +896,103 @@ body {
   bottom: 219px;
 }
 
+.img-producto_4 {
+  width: 155px;
+  height: 154px;
+  position: absolute;
+  right: -20px;
+  bottom: 219px;
+}
+
+.img-producto_5 {
+  width: 98px;
+  height: 170px;
+  position: absolute;
+  right: -3px;
+  bottom: 219px;
+}
+
+.img-producto_6 {
+  width: 138px;
+  height: 144px;
+  position: absolute;
+  right: -3px;
+  bottom: 219px;
+}
+
+.img-producto_7 {
+  position: absolute;
+  right: -3px;
+  bottom: 219px;
+}
+
+.img-producto_8 {
+  width: 71px;
+  height: 195px;
+  position: absolute;
+  right: -3px;
+  bottom: 219px;
+}
+
+.img-producto_9 {
+  width: 105px;
+  height: 195px;
+  position: absolute;
+  right: -3px;
+  bottom: 219px;
+}
+
+.img-producto_10 {
+  width: 50px;
+  height: 195px;
+  position: absolute;
+  right: 9px;
+  bottom: 219px;
+}
+
+.img-producto_11 {
+  width: 64.6px;
+  height: 207px;
+  position: absolute;
+  right: -1px;
+  bottom: 219px;
+}
+
+.img-producto_12 {
+  width: 66px;
+  height: 207px;
+  position: absolute;
+  bottom: 219px;
+  right: 4px;
+}
+
 .carac-item {
   font-weight: 300;
   font-size: 15px;
   line-height: 13px;
   padding-top: 10px;
-  padding-left: 15px;
+  padding-left: 10px;
   padding-right: 12px;
+}
+
+.extra-1 {
+  padding-bottom: 25px;
+}
+
+.extra-2 {
+  padding-bottom: 10px;
+}
+
+.extra-3 {
+  padding-bottom: 12px;
+}
+
+.extra-4 {
+  padding-bottom: 23px;
+}
+
+.btn {
+  padding-bottom: 15px;
 }
 
 .btn-comprar {
@@ -922,4 +1021,98 @@ body {
 
 .wa-compra {
   padding-bottom: 5px;
+}
+
+/* PAGINA CONTACTANOS */
+
+.section-contact {
+  background: linear-gradient(
+    270.58deg,
+    rgba(0, 160, 250, 0.24) -23.33%,
+    rgba(253, 146, 255, 0.11125) 85.16%,
+    rgba(255, 71, 104, 0) 193.65%
+  );
+}
+
+.s_tittle {
+  margin-bottom: 60px;
+}
+
+.text-contacto {
+  display: flex;
+}
+
+.contact-description {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: justify;
+  color: #000000;
+  padding-top: 177px;
+  padding-left: 66px;
+  padding-right: 73px;
+}
+
+.contact-form {
+  width: 529px;
+  height: 601px;
+  background-color: #f2f2f2;
+  padding: 32px;
+  border-radius: 10px;
+  margin-bottom: 100px;
+}
+
+.contact-form label {
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 13px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  resize: none;
+  height: 250px;
+  width: 464px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px #ff6384;
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.contact-form button[type='submit'] {
+  width: 198px;
+  height: 58px;
+  margin: auto;
+  background-color: #ff6384;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.contact-form button[type='submit']:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
 }

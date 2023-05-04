@@ -430,3 +430,18 @@ window.onclick = function (event) {
     }
   }
 };
+
+/* EVENT API WA */
+const evento = document.getElementById('send');
+const enviarFormulario = () => {
+  let name = document.getElementById('name').value;
+  let email = document.getElementById('email').value;
+  let message = document.getElementById('message').value;
+  let number = 573105935682;
+
+  var win = window.open(
+    `https://wa.me/${number}?text=Hola!%20Mi%20Nombre%20es%20${name}%20y%20mi%20correo%20es${email}, Asunto:%20${message}`,
+    '_blank',
+  );
+};
+evento.addEventListener('click', enviarFormulario);
