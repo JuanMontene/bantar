@@ -132,6 +132,26 @@ body {
   border-radius: 2px;
 }
 
+@media (max-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .bantar-logo-svg {
+    width: 144px;
+    height: 72px;
+  }
+
+  .logo_bantar {
+    padding-left: 43px;
+    margin-right: 143px;
+  }
+
+  .main-nav_link {
+    padding: 46px 0;
+  }
+}
+
 /* BANNER */
 
 .banner {
@@ -193,6 +213,11 @@ body {
 .imagen-chica {
   width: 525px;
   height: 410px;
+}
+
+@media (min-width: 768px) {
+  .banner {
+  }
 }
 
 /* INTRODUCTION BANTAR */
