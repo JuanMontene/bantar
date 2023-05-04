@@ -138,8 +138,8 @@ body {
   }
 
   .bantar-logo-svg {
-    width: 144px;
-    height: 72px;
+    width: 158px;
+    height: 79px;
   }
 
   .logo_bantar {
@@ -215,8 +215,46 @@ body {
   height: 410px;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .banner {
+    height: 236.65px;
+  }
+
+  .imagen-banner {
+    right: -213px;
+  }
+
+  .imagen-chica {
+    width: 303px;
+    height: 238px;
+  }
+
+  .primera-linea {
+    padding-left: 31px;
+    padding-top: 68px;
+  }
+
+  .img-primera-linea {
+    width: 353px;
+  }
+
+  .titulo-banner {
+    line-height: 24px;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-right: 357px;
+  }
+
+  .parrafo-banner {
+    font-size: 18px;
+    line-height: 22px;
+    padding-top: 0;
+    padding-right: 361px;
+  }
+
+  .segunda-linea {
+    height: 1px;
+    padding-left: 31px;
   }
 }
 
@@ -262,6 +300,33 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
   margin: auto;
+}
+
+@media (max-width: 768px) {
+  .introduction {
+    height: 1493px;
+  }
+
+  .line-introduction {
+    width: 654px;
+    padding-top: 13px;
+    padding-bottom: 5px;
+  }
+
+  .tittle-introduction {
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .line2-introduction {
+    width: 654px;
+    padding-top: 0px;
+  }
+
+  .introduction-text {
+    width: 709px;
+  }
 }
 
 /* CARDS WITH INFORMATION */
@@ -401,6 +466,46 @@ body {
   margin-top: 25px;
 }
 
+@media (max-width: 768px) {
+  .cards-information,
+  .cards-information2,
+  .cards-information3 {
+    width: 662px;
+    height: 278px;
+    margin: auto;
+  }
+
+  .cards-information2,
+  .cards-information3 {
+    margin-top: 25px;
+  }
+
+  .img-tratamientos_faciales {
+    position: absolute;
+    top: 11.23px;
+    left: 8.83px;
+    width: 380.35px;
+    height: 255.17px;
+  }
+
+  .tratamientos-faciales {
+    padding-left: 389px;
+    padding-top: 69px;
+  }
+
+  .card-tittle,
+  .card-description {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .card-tittle3,
+  .card-description3 {
+    font-size: 26px;
+    line-height: 31px;
+  }
+}
+
 /* FOOTER */
 .container-footer {
   display: flex;
@@ -443,6 +548,10 @@ body {
   margin-right: 120px;
 }
 
+.pages1 {
+  display: none;
+}
+
 .pages-footer {
   font-weight: 300;
   font-size: 16px;
@@ -481,6 +590,56 @@ body {
 .ubication-link:hover,
 .ubication-link:focus {
   color: #ea899a;
+}
+
+@media (max-width: 768px) {
+  .logo-bantar_footer {
+    padding-top: 41px;
+    padding-left: 52px;
+    padding-bottom: 49px;
+    margin-right: 96px;
+  }
+
+  .redes-sociales {
+    padding-top: 54px;
+    margin-right: 98px;
+  }
+
+  .redes-sociales_tittle {
+    padding-bottom: 23px;
+  }
+
+  .list-social_media {
+    padding-left: 19px;
+  }
+
+  .pages {
+    display: none;
+  }
+
+  .ubication {
+    padding-top: 40px;
+  }
+
+  .pages1 {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .pages-list {
+    display: flex;
+    align-items: center;
+    width: 514px;
+    margin: auto;
+  }
+
+  .pages-list_item:first-child {
+    padding-left: 93px;
+  }
+
+  .pages-list_item:not(:last-child) {
+    padding-right: 32px;
+  }
 }
 
 /* STYLES - WEB SERVICES PAGE */
