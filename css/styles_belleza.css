@@ -117,11 +117,13 @@ body {
   margin-right: 0;
 }
 
-.selected {
+.selected,
+.selected_5 {
   color: #ea899a;
 }
 
-.selected::after {
+.selected::after,
+.selected_5::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -148,7 +150,7 @@ body {
   }
 
   .main-nav_link {
-    padding: 48px 0;
+    padding: 49px 0;
   }
 
   .menu-vertical {
@@ -163,6 +165,10 @@ body {
 
   .selected_5 {
     color: #000000;
+  }
+
+  .selected_5::after {
+    background-color: white;
   }
 
   .selected-1 {
@@ -239,7 +245,9 @@ body {
   }
 
   .imagen-banner {
-    right: -213px;
+    right: 309px;
+    width: 0px;
+    height: 0px;
   }
 
   .imagen-chica {
