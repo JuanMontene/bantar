@@ -40,7 +40,6 @@ body {
 
 .container {
   max-width: 1200px;
-  margin: auto;
 }
 
 .container-header {
@@ -149,6 +148,24 @@ body {
 
   .main-nav_link {
     padding: 48px 0;
+  }
+
+  .menu-vertical {
+    display: block;
+    padding-top: 5px;
+    font-size: 10px;
+  }
+
+  .item-vertical:first-child {
+    padding-bottom: 1px;
+  }
+
+  .selected_5 {
+    color: #000000;
+  }
+
+  .selected-1 {
+    color: #ea899a;
   }
 }
 
@@ -506,142 +523,6 @@ body {
   }
 }
 
-/* FOOTER */
-.container-footer {
-  display: flex;
-}
-
-.logo-bantar_footer {
-  padding-top: 64px;
-  padding-left: 60px;
-  padding-bottom: 64px;
-  margin-right: 120px;
-}
-
-.redes-sociales {
-  padding-top: 82px;
-  margin-right: 120px;
-}
-
-.redes-sociales_tittle {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  color: #000000;
-  padding-bottom: 25px;
-}
-
-.list-social_media {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  padding-left: 76px;
-}
-
-.socialmedia:hover {
-  fill: #ff82a0;
-  transition: 0.3s;
-}
-
-.pages {
-  padding-top: 80px;
-  margin-right: 120px;
-}
-
-.pages1 {
-  display: none;
-}
-
-.pages-footer {
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 19px;
-  color: #000000;
-}
-
-.pages-footer:hover {
-  color: #ea899a;
-  font-weight: 400;
-  transition: 0.2s;
-}
-
-.selected-footer {
-  color: #ea899a;
-  font-weight: 400;
-  font-size: 18px;
-}
-
-.ubication {
-  padding-top: 78px;
-}
-
-.ubication-list_item:not(:last-child) {
-  padding-bottom: 15px;
-}
-
-.ubication-link {
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 17px;
-
-  color: #5f5f5f;
-}
-
-.ubication-link:hover,
-.ubication-link:focus {
-  color: #ea899a;
-}
-
-@media (max-width: 768px) {
-  .logo-bantar_footer {
-    padding-top: 41px;
-    padding-left: 52px;
-    padding-bottom: 49px;
-    margin-right: 96px;
-  }
-
-  .redes-sociales {
-    padding-top: 54px;
-    margin-right: 98px;
-  }
-
-  .redes-sociales_tittle {
-    padding-bottom: 23px;
-  }
-
-  .list-social_media {
-    padding-left: 19px;
-  }
-
-  .pages {
-    display: none;
-  }
-
-  .ubication {
-    padding-top: 40px;
-  }
-
-  .pages1 {
-    display: block;
-    margin-bottom: 30px;
-  }
-
-  .pages-list {
-    display: flex;
-    align-items: center;
-    width: 514px;
-    margin: auto;
-  }
-
-  .pages-list_item:first-child {
-    padding-left: 93px;
-  }
-
-  .pages-list_item:not(:last-child) {
-    padding-right: 32px;
-  }
-}
-
 /* STYLES - WEB SERVICES PAGE */
 
 .introduction-tittle_services {
@@ -657,11 +538,11 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  text-align: center;
+  text-align: justify;
   color: #000000;
+  width: 761px;
+  margin: auto;
   padding-top: 42px;
-  padding-left: 219px;
-  padding-right: 220px;
 }
 
 .line-services_1 {
@@ -676,6 +557,31 @@ body {
   padding-top: 20px;
   padding-bottom: 5px;
   margin: auto;
+}
+
+@media (max-width: 768px) {
+  .introduction-tittle_services {
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #000000;
+    padding-top: 40px;
+  }
+
+  .introduction-text_services {
+    text-align: center;
+    width: 673px;
+  }
+
+  .line-services_1 {
+    width: 734px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+  }
+
+  .line-services_2 {
+    width: 734px;
+  }
 }
 
 /* LIMPIEZA PROFUNDA */
@@ -853,6 +759,92 @@ body {
   display: none;
 }
 
+.ocultar {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .tittle-limpieza {
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+  }
+
+  .tittle-profunda {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .ocultar {
+    display: block;
+    text-align: justify;
+    padding-top: 20px;
+    width: 458px;
+    margin: auto;
+  }
+
+  .info-limpiezas {
+    padding-top: 7px;
+  }
+
+  .text-limpieza_profunda {
+    display: none;
+  }
+
+  .limpieza-profunda_img {
+    width: 357px;
+    height: 238px;
+    padding-left: 22px;
+    padding-top: 15px;
+  }
+
+  .text-list {
+    padding-left: 16px;
+    padding-right: 31px;
+  }
+
+  .drop-info,
+  .drop-info1,
+  .drop-info2,
+  .drop-info3,
+  .drop-info4,
+  .drop-info5,
+  .drop-info6,
+  .drop-info7,
+  .drop-info8,
+  .drop-info9,
+  .drop-info10,
+  .drop-info11,
+  .drop-info12,
+  .drop-info13,
+  .drop-info14,
+  .drop-info15 {
+    width: 379px;
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .button-content,
+  .button-content1,
+  .button-content2,
+  .button-content3,
+  .button-content4,
+  .button-content5,
+  .button-content6,
+  .button-content7,
+  .button-content8,
+  .button-content9,
+  .button-content10,
+  .button-content11,
+  .button-content12,
+  .button-content13,
+  .button-content14,
+  .button-content15 {
+    width: 379px;
+    font-size: 14px;
+  }
+}
+
 /* CUIDADO DE TUS PIERNAS */
 
 .tittle-text {
@@ -878,7 +870,7 @@ body {
 }
 
 .parrafo {
-  padding-right: 63px;
+  margin-right: 63px;
 }
 
 .tittle-text p {
@@ -973,6 +965,78 @@ body {
 .img-beneficios {
   width: 477px;
   border-radius: 13px;
+}
+
+.oculta {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .parrafo {
+    margin-left: 33px;
+    margin-right: 27px;
+  }
+
+  .presoterapia-tittle {
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+  }
+
+  .negrita {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .tittle-text p {
+    width: 301px;
+  }
+
+  .img-presoterapia {
+    width: 386px;
+    height: 259px;
+  }
+
+  .informacion-presoterapia {
+    display: block;
+    width: 640px;
+    margin: auto;
+  }
+
+  .piernas-cansadas {
+    padding: 0;
+  }
+
+  .beneficios {
+    width: 719px;
+  }
+
+  .oculte {
+    display: none;
+  }
+
+  .oculta {
+    display: block;
+  }
+
+  .negrita_1 {
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+  }
+
+  .list-beneficios {
+    padding-right: 34px;
+  }
+
+  .img-beneficios {
+    width: 364px;
+    height: 242px;
+  }
+
+  .list-contraindicaciones {
+    padding-left: 28px;
+  }
 }
 
 /* PRODUCTOS */
@@ -1207,6 +1271,30 @@ body {
   padding-bottom: 5px;
 }
 
+@media (max-width: 768px) {
+  .tittle-productos {
+    font-size: 36px;
+    line-height: 43px;
+    padding-top: 30px;
+  }
+
+  .productos-description {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 10px;
+    width: 704px;
+    margin: auto;
+  }
+
+  .card-product {
+    width: 675px;
+  }
+
+  .product_item {
+    flex-basis: calc((100% - 50px) / 2);
+  }
+}
+
 /* PAGINA CONTACTANOS */
 
 .section-contact {
@@ -1299,4 +1387,167 @@ textarea {
 .contact-form button[type='submit']:hover {
   transform: scale(1.1);
   transition: transform 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .section-contact {
+    height: 920px;
+  }
+
+  .text-contacto {
+    display: block;
+  }
+
+  .s_tittle {
+    margin-bottom: 0;
+  }
+
+  .contact-description {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 30px;
+    padding-bottom: 28px;
+    width: 672px;
+    margin: auto;
+  }
+
+  .contact-form {
+    margin: auto;
+  }
+}
+
+/* FOOTER */
+.container-footer {
+  display: flex;
+}
+
+.logo-bantar_footer {
+  padding-top: 64px;
+  padding-left: 60px;
+  padding-bottom: 64px;
+  margin-right: 120px;
+}
+
+.redes-sociales {
+  padding-top: 82px;
+  margin-right: 120px;
+}
+
+.redes-sociales_tittle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  padding-bottom: 25px;
+}
+
+.list-social_media {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-left: 76px;
+}
+
+.socialmedia:hover {
+  fill: #ff82a0;
+  transition: 0.3s;
+}
+
+.pages {
+  padding-top: 80px;
+  margin-right: 120px;
+}
+
+.pages1 {
+  display: none;
+}
+
+.pages-footer {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.pages-footer:hover {
+  color: #ea899a;
+  font-weight: 400;
+  transition: 0.2s;
+}
+
+.selected-footer {
+  color: #ea899a;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.ubication {
+  padding-top: 78px;
+}
+
+.ubication-list_item:not(:last-child) {
+  padding-bottom: 15px;
+}
+
+.ubication-link {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #5f5f5f;
+}
+
+.ubication-link:hover,
+.ubication-link:focus {
+  color: #ea899a;
+}
+
+@media (max-width: 768px) {
+  .logo-bantar_footer {
+    padding-top: 41px;
+    padding-left: 52px;
+    padding-bottom: 49px;
+    margin-right: 96px;
+  }
+
+  .redes-sociales {
+    padding-top: 54px;
+    margin-right: 98px;
+  }
+
+  .redes-sociales_tittle {
+    padding-bottom: 23px;
+  }
+
+  .list-social_media {
+    padding-left: 19px;
+  }
+
+  .pages {
+    display: none;
+  }
+
+  .ubication {
+    padding-top: 40px;
+  }
+
+  .pages1 {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .pages-list {
+    display: flex;
+    align-items: center;
+    width: 514px;
+    margin: auto;
+  }
+
+  .pages-list_item:first-child {
+    padding-left: 93px;
+  }
+
+  .pages-list_item:not(:last-child) {
+    padding-right: 32px;
+  }
 }
