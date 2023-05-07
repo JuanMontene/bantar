@@ -28,6 +28,11 @@
               <use href="./img/icons.svg#icon-bantar_belleza_logo"></use>
             </svg>
           </a>
+          <div class="burger" data-menu-open="">
+            <svg class="burger-icon" width="24" height="16">
+              <use href="./img/icons.svg#icon-menu"></use>
+            </svg>
+          </div>
         </div>
         <nav class="main-nav">
           <ul class="main-nav_list list">
@@ -64,7 +69,98 @@
       </div>
     </header>
 
-    <!-- <div class="mobile-menu"></div> -->
+    <div class="mobile-menu" data-menu="">
+      <button class="mobile-menu__close" type="button" data-menu-close="">
+        <svg class="mobile-menu__icon" width="19" height="19">
+          <use href="./img/icons.svg#icon-closer"></use>
+        </svg>
+      </button>
+      <div class="logo_menu">
+        <a href="./inicio-belleza.html" class="header_logo link">
+          <svg class="bantar-logo-svg-1" width="197" height="99">
+            <use href="./img/icons.svg#icon-bantar_belleza_logo"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="list-pages-mobile-menu">
+        <ul class="nav_mobile">
+          <li class="nav_mobile-list">
+            <a href="./inicio-belleza.html" class="nav-list_link">Inicio</a>
+          </li>
+          <li class="nav_mobile-list">
+            <a href="./servicios.html" class="nav-list_link"
+              >Tratamientos faciales</a
+            >
+          </li>
+          <li class="nav_mobile-list">
+            <a href="./cuidado-de-tus-piernas.html" class="nav-list_link"
+              >Cuidado de tus piernas</a
+            >
+          </li>
+          <li class="nav_mobile-list">
+            <a href="./productos-belleza.html" class="nav-list_link"
+              >Productos</a
+            >
+          </li>
+          <li class="nav_mobile-list">
+            <a href="./contactanos.html" class="nav-list_link current"
+              >Contactanos</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="ubication-mobile">
+        <ul class="ubication-list_1">
+          <li class="ubication-list_item_1">
+            <a
+              class="ubication-link_1"
+              href="https://www.google.com/maps/place/Cl.+93b+%2317-12,+Localidad+de+Chapinero,+Bogotá/@4.6797772,-74.055129,17z/data=!3m1!4b1!4m6!3m5!1s0x8e3f9a9339048869:0x8c0de23b47cbee96!8m2!3d4.6797719!4d-74.0525487!16s%2Fg%2F11b8v5t87b?hl=es"
+              target="_blank"
+              rel="noreferrer noopener"
+              >Calle 93b # 17 - 12 Cons 204<br />
+              Bogotá, Colombia</a
+            >
+          </li>
+          <li class="ubication-list_item_1">
+            <a href="mailto:info@bantarsoluciones.com" class="ubication-link_1"
+              >info@bantarsoluciones.com</a
+            >
+          </li>
+          <li class="ubication-list_item_1">
+            <a href="tel:+579105935692" class="ubication-link_1"
+              >+57 310 593 5682</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="social-media_mobile">
+        <ul class="list-social_media-1">
+          <li>
+            <a href="www.facebook.com" class="link">
+              <svg class="socialmedia" width="29" height="29">
+                <use href="./img/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="www.instagram.com" class="link">
+              <svg class="socialmedia" width="29" height="29">
+                <use href="./img/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="www.tiktok.com" class="link">
+              <svg class="socialmedia" width="29" height="29">
+                <use href="./img/icons.svg#icon-tiktok"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
 
     <main>
       <section class="section-contact">
@@ -118,7 +214,7 @@
         <div class="container container-footer">
           <div class="logo-bantar_footer">
             <a href="./inicio-belleza.html" class="header_logo link">
-              <svg class="bantar-logo-svg" width="197" height="99">
+              <svg class="bantar-logo-svg size" width="197" height="99">
                 <use href="./img/icons.svg#icon-bantar_belleza_logo"></use>
               </svg>
             </a>
@@ -228,6 +324,6 @@
       </footer>
     </main>
 
-    <script src="./main2.js"></script>
+    <script src="./menu-mobile.js"></script>
   </body>
 </html>

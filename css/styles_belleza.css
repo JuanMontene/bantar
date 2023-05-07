@@ -332,21 +332,30 @@ body {
   }
 
   .primera-linea {
-    padding-left: 40px;
+    width: 290px;
+    margin: auto;
+    padding-left: 0px;
     padding-top: 224px;
   }
 
   .titulo-banner {
     padding-top: 10px;
-    padding-right: 10px;
+    padding-right: 0px;
+    width: 205px;
+    margin: auto;
   }
 
   .parrafo-banner {
-    padding-right: 6px;
+    width: 264px;
+    margin: auto;
+    padding-right: 0px;
+    padding-top: 15px;
   }
 
   .segunda-linea {
-    padding-left: 40px;
+    width: 290px;
+    margin: auto;
+    padding-left: 0px;
   }
 }
 
@@ -433,6 +442,7 @@ body {
   .tittle-introduction {
     font-size: 14px;
     line-height: 17px;
+    padding: 0 15px;
   }
 
   .line2-introduction {
@@ -1233,6 +1243,68 @@ body {
   .list-contraindicaciones {
     padding-left: 28px;
   }
+
+  .mostrar_linea {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .tittle-text {
+    flex-direction: column;
+    width: 360px;
+    padding-top: 0px;
+  }
+
+  .img-presoterapia {
+    width: 345px;
+    height: 232px;
+    padding-top: 10px;
+  }
+
+  .mostrar_linea {
+    display: block;
+  }
+
+  .line-services_2 {
+    padding-top: 20px;
+  }
+
+  .informacion-presoterapia {
+    width: 316px;
+  }
+
+  .beneficios-box {
+    padding-top: 5px;
+  }
+
+  .beneficios {
+    flex-direction: column;
+    width: 316px;
+    padding-bottom: 45px;
+  }
+
+  .list-beneficios {
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 20px;
+  }
+
+  .img-beneficios {
+    width: 345px;
+    height: 232px;
+  }
+
+  .pad {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .list-contraindicaciones {
+    padding-left: 0px;
+    padding-top: 28px;
+  }
 }
 
 /* PRODUCTOS */
@@ -1491,6 +1563,36 @@ body {
   }
 }
 
+@media (max-width: 480px) {
+  .productos-description {
+    width: 336px;
+  }
+
+  .productss-tittle {
+    padding: 0;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .negrita {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 19px;
+  }
+
+  .card-product {
+    flex-direction: column;
+    width: 306px;
+    gap: 25px;
+  }
+
+  .img-producto_3 {
+    right: -27px;
+  }
+}
+
 /* PAGINA CONTACTANOS */
 
 .section-contact {
@@ -1609,6 +1711,29 @@ textarea {
 
   .contact-form {
     margin: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-contact {
+    height: 1047px;
+  }
+  .contact-description {
+    width: 322px;
+    font-size: 15px;
+  }
+
+  .contact-form {
+    width: 340px;
+  }
+
+  textarea {
+    width: 275px;
+  }
+
+  .contact-form button[type='submit'] {
+    width: 161px;
+    font-size: 18px;
   }
 }
 
