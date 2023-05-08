@@ -268,6 +268,10 @@ body {
   height: 410px;
 }
 
+.image2-banner {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .banner {
     height: 236.65px;
@@ -319,12 +323,15 @@ body {
   }
 
   .imagen-banner {
+    display: none;
     right: 322px;
   }
 
-  .imagen-chica {
+  .image2-banner {
+    display: block;
     width: 268px;
     height: 209px;
+    margin: auto;
   }
 
   .img-primera-linea {
@@ -335,7 +342,7 @@ body {
     width: 290px;
     margin: auto;
     padding-left: 0px;
-    padding-top: 224px;
+    padding-top: 12px;
   }
 
   .titulo-banner {
@@ -716,7 +723,7 @@ body {
 
 @media (max-width: 480px) {
   .introduction-tittle_services {
-    font-size: 32px;
+    font-size: 25px;
     line-height: 38px;
     padding-top: 25px;
   }
@@ -724,6 +731,7 @@ body {
   .introduction-text_services {
     width: 337px;
     padding-top: 25px;
+    font-size: 18px;
   }
 
   .line-services_1 {
@@ -915,6 +923,10 @@ body {
   display: none;
 }
 
+.imagen-limpiezas {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .tittle-limpieza {
     font-size: 28px;
@@ -999,9 +1011,13 @@ body {
 
 @media (max-width: 480px) {
   .tittle-limpieza {
-    font-size: 26px;
+    font-size: 22px;
     line-height: 31px;
     padding-left: 0;
+  }
+
+  .tittle-profunda {
+    font-size: 22px;
   }
 
   .ocultar {
@@ -1010,6 +1026,17 @@ body {
 
   .info-limpiezas {
     flex-direction: column;
+  }
+
+  .imagen-limpiezas {
+    display: block;
+    width: 357px;
+    height: 238px;
+    margin: auto;
+  }
+
+  .limpieza-profunda_img {
+    display: none;
   }
 
   .drop-info,
@@ -1048,6 +1075,12 @@ body {
   .button-content14,
   .button-content15 {
     width: 338px;
+  }
+
+  .text-list {
+    padding: 20px 0px 0px 0px;
+    width: 338px;
+    margin: auto;
   }
 }
 
@@ -1262,6 +1295,10 @@ body {
     padding-top: 10px;
   }
 
+  .presoterapia-tittle {
+    font-size: 20px;
+  }
+
   .mostrar_linea {
     display: block;
   }
@@ -1304,6 +1341,10 @@ body {
   .list-contraindicaciones {
     padding-left: 0px;
     padding-top: 28px;
+  }
+
+  .negrita_1 {
+    font-size: 25px;
   }
 }
 
