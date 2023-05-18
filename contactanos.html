@@ -182,27 +182,31 @@
             </p>
 
             <div class="contact-form">
-              <form>
-                <label>Nombre:</label>
+              <form
+                action="https://formsubmit.co/bantarsas@gmail.com"
+                method="POST"
+              >
+                <label for="Nombre">Nombre:</label>
                 <input
                   type="text"
                   required=""
                   id="name"
                   placeholder="Ingrese nu nombre completo"
+                  name="Nombre"
                 />
-                <label>Correo Electronico:</label>
+                <label for="correo-electronico">Correo Electronico:</label>
                 <input
                   type="email"
                   id="email"
-                  name="email"
+                  name="correo-electronico"
                   required=""
                   placeholder="porejemplo@12345.com"
                   autocomplete="off"
                 />
-                <label>Mensaje:</label>
+                <label for="mensaje">Mensaje:</label>
                 <textarea
                   id="message"
-                  name="message"
+                  name="mensaje"
                   required
                   placeholder="Comentamos tu duda o inquietud en este espacio"
                 ></textarea>
